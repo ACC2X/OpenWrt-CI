@@ -13,8 +13,8 @@ name: Build RedMi AX6000 immortalwrt-mt798x
 on:
   repository_dispatch:
   workflow_dispatch:
-  schedule:
-    - cron:  '22 16 * * 2,4'
+ # schedule:
+ #   - cron:  '22 16 * * 2,4'
 env:
   TZ: Asia/Shanghai
 
